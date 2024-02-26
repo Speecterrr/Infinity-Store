@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header
-      className="p-6 px-8 text-white flex justify-between items-center top-0 sticky header w-full"
+      className="p-6 px-8 flex justify-between items-center top-0 sticky header w-full"
       style={{
         backdropFilter: "blur(0.75rem)",
         WebkitBackdropFilter: "blur(0.75rem)",

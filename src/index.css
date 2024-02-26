@@ -10,7 +10,8 @@
 }
 
 body {
-  background-color: #211c6a;
+  background: linear-gradient(to right, #03002a, #141146, #2116ca);
+  color: #fff;
 }
 
 /* Para navegadores WebKit (Chrome, Safari) */
