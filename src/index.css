@@ -8,3 +8,24 @@
   box-sizing: border-box;
   font-family: "Roboto Mono", sans-serif;
 }
+
+body {
+  background-color: #211c6a;
+}
+
+/* Para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0.9rem; /* largura do scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff; /* cor de fundo do track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a0738; /* cor do thumb (a barra em si) */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* cor do thumb quando hover */
+}
