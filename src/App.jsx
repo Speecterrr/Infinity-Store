@@ -1,3 +1,7 @@
-export default function App() {
-  return <h1>Hello World</h1>;
-}
+import Page from "./page/Page";
+
+const App = () => {
+  return <Page />;
+};
+
+export default App;
