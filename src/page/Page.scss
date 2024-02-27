@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  .mainImg {
+    height: 12rem;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

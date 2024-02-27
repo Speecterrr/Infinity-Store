@@ -3,12 +3,13 @@ import CarroselDetails from "../components/CarroselDetails/CarroselDetails";
 import Doubts from "../components/Doubts/Doubts";
 import Header from "../components/Header/Header";
 import PaymentMethod from "../components/PaymentMethods/PaymentMethods";
+import "./Page.scss";
 
 export default function Page() {
   return (
     <>
       <Header />
-      <img src="/HomeWallpaper.png" alt="mainImage" className="w-full object-cover max-h-[600px]" />
+      <img src="/HomeWallpaper.png" alt="mainImage" className="w-full object-cover max-h-[600px] mainImg" />
       <div className="text-center p-2 mb-10 mt-2" id="bots">
         <h1>🌟 Eficiência e segurança. Experimente a inovação da Infinity Store!🏷️🌟</h1>
       </div>
@@ -41,17 +42,22 @@ export default function Page() {
         </div>
       </section>
 
-      <footer className="p-4 px-8 flex flex-wrap justify-between items-center w-full bg-indigo-950 mt-20">
+      <footer className="p-6 px-8 flex flex-wrap justify-between items-center w-full bg-indigo-950 mt-20">
         <h1 className="font-bold text-2xl">Infinity Store</h1>
         <div className="flex items-center flex-col gap-1">
           <div className="flex items-center gap-1">
             <p className="text-2xl mb-1">©</p>
-            <h1>Criado por Matheus Sousa</h1>
+            <h1>
+              Criado por{" "}
+              <a
+                className="border-b border-black transition duration-200 text-blue-700 hover:text-blue-300"
+                href="https://www.linkedin.com/in/matheussousadev/"
+                target="blank"
+              >
+                Matheus Sousa
+              </a>
+            </h1>
           </div>
-
-          <button className="bg-indigo-800 py-1 px-2 rounded transition duration-300 hover:bg-indigo-400">
-            <p>Veja</p>
-          </button>
         </div>
       </footer>
     </>
