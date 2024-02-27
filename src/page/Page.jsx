@@ -1,5 +1,6 @@
 import CardBot from "../components/CardBots/CardBots";
 import CarroselDetails from "../components/CarroselDetails/CarroselDetails";
+import Doubts from "../components/Doubts/Doubts";
 import Header from "../components/Header/Header";
 
 export default function Page() {
@@ -22,11 +23,16 @@ export default function Page() {
         </h1>
         <CarroselDetails />
       </section>
-      <section>
-        <h1 className="text-center font-bold text-3xl mt-10" data-aos="fade-right" data-aos-duration="1000">
-          Perguntas Frequentes
+      <section className="p-2 flex flex-col items-center">
+        <h1
+          className="text-center font-bold text-3xl mt-10 mb-4"
+          id="duvidas"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          Dúvidas
         </h1>
-        
+        <Doubts />
       </section>
     </>
   );
