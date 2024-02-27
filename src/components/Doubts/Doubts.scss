@@ -1,0 +1,43 @@
+.details {
+  position: relative;
+}
+
+.doubts {
+  width: 70%;
+}
+
+details::before {
+  content: ""; /* cria um pseudoelemento antes do conteúdo */
+  position: absolute; /* posicionamento absoluto em relação ao elemento pai */
+  top: -2px; /* desloca o pseudoelemento para cima para cobrir a borda */
+  left: -2px; /* desloca o pseudoelemento para a esquerda para cobrir a borda */
+  right: -2px; /* desloca o pseudoelemento para a direita para cobrir a borda */
+  bottom: -2px; /* desloca o pseudoelemento para baixo para cobrir a borda */
+  border-radius: 0.3rem; /* herda o raio de arredondamento da borda do elemento pai */
+  border: 2px solid transparent; /* estilo inicial da borda */
+  animation: rotateBorder 3s linear infinite; /* animação que faz a borda "rodar" */
+  pointer-events: none;
+}
+
+@keyframes rotateBorder {
+  0% {
+    border-color: rgb(0, 0, 231);
+  }
+  15% {
+    border-color: rgb(8, 0, 33);
+  }
+
+  50% {
+    border-color: rgb(33, 0, 141);
+  }
+
+  100% {
+    border-color: rgb(0, 0, 231);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .doubts {
+    width: 100%;
+  }
+}
