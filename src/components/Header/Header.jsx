@@ -10,12 +10,12 @@ export default function Header() {
       <h1 className="font-bold text-2xl ">Infinity Store</h1>
       <div className="flex gap-2">
         <ul className="flex gap-3">
-          <a href="#formasdepagamento">
+          <a href="#paymentMethods">
             <li href="" className="bg-[#211C6A] p-2 rounded hover:bg-[#324a86] transition duration-300">
               Formas de Pagamento
             </li>
           </a>
-          <a href="#duvidas">
+          <a href="#doubts">
             <li className="bg-[#211C6A] p-2 rounded hover:bg-[#324a86] transition duration-300">Dúvidas</li>
           </a>
           <a href="#bots">

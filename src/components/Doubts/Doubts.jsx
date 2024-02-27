@@ -10,15 +10,15 @@ export default function Doubts() {
           <summary className="font-bold cursor-pointer">Como adquirir o BOT?</summary>
           <ul className="pt-3">
             <li>
-              <strong>Abertura de Ticket:</strong> Comece abrindo um ticket em
+              <strong>Abertura de Ticket:</strong> Entre no nosso servidor do Discord:
               <a
                 href="https://discord.gg/wyXW7uzX"
                 target="blank"
                 className="text-white bg-black rounded hover:bg-slate-500 mx-3 transition duration-300"
               >
-                nosso servidor do Discord.
+                Clique Aqui.
               </a>
-              Este é o primeiro passo para iniciar a comunicação direta conosco.
+              E abra um Ticket. Este é o primeiro passo para iniciar a comunicação direta conosco.
             </li>
             <br />
             <li>

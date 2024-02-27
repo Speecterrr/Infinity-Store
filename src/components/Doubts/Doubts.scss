@@ -6,6 +6,12 @@
   width: 70%;
 }
 
+.doubts > div {
+  box-shadow: -6px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -6px 9px 9px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -6px 9px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
 details::before {
   content: ""; /* cria um pseudoelemento antes do conteúdo */
   position: absolute; /* posicionamento absoluto em relação ao elemento pai */

@@ -25,16 +25,16 @@ export default function CarroselDetails() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="public/CarroselImages/imageOne.png" alt="imageOneDetails" />
+          <img src="/CarroselImages/imageOne.png" alt="imageOneDetails" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/CarroselImages/imageTwo.png" alt="imageTwoDetails" />
+          <img src="/CarroselImages/imageTwo.png" alt="imageTwoDetails" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/CarroselImages/imageThird.png" alt="imageThirdDetails" />
+          <img src="/CarroselImages/imageThird.png" alt="imageThirdDetails" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="public/CarroselImages/imageFour.png" alt="imageFourDetails" />
+          <img src="/CarroselImages/imageFour.png" alt="imageFourDetails" />
         </SwiperSlide>
       </Swiper>
     </>
