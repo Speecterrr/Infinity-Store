@@ -1,0 +1,69 @@
+.card {
+  border-radius: 0.5rem;
+  width: 18rem;
+  height: 15.5rem;
+  background: linear-gradient(to right, #240068, #36009b, #4900d1);
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header {
+  padding: 1.25rem 1rem 1rem 1rem;
+}
+
+.image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0e0029;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  animation: animate 0.6s linear alternate-reverse infinite;
+  transition: 0.6s ease;
+}
+
+.image svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.content {
+  margin-top: 0.75rem;
+  text-align: center;
+}
+
+.title {
+  color: #000000;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.message {
+  margin-top: 0.5rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.actions {
+  margin: 0.75rem 1rem;
+}
+
+@keyframes animate {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.09);
+  }
+}
+
+.buttonMethod {
+  background: linear-gradient(to right, #03002a, #141146, #2116ca);
+}
