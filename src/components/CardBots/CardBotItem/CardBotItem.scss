@@ -1,0 +1,16 @@
+.box {
+  width: 20rem;
+  height: 22rem;
+  border-radius: 0.4rem;
+  border: 1px solid #000000;
+  transition: 0.3s;
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(1rem);
+  box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.box:hover {
+  transform: translateY(-1rem);
+}
