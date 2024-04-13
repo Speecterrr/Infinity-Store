@@ -51,10 +51,10 @@ export default function Page() {
               Criado por{" "}
               <a
                 className="border-b border-black transition duration-200 text-blue-700 hover:text-blue-300"
-                href="https://www.linkedin.com/in/matheussousadev/"
+                href=""
                 target="blank"
               >
-                Matheus Sousa
+                Nathan Almeida
               </a>
             </h1>
           </div>
